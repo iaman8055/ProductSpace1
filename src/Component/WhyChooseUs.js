@@ -64,20 +64,6 @@ const WhyChooseUs = () => {
                 transition: "width 3s ease",
               }}
             ></div>
-
-            {/* Dots on Progress Bar */}
-            {/* <div className="absolute inset-0 flex justify-between items-center px-2">
-              {slides.map((_, index) => (
-                <div
-                  key={index}
-                  className={`w-4 h-4 rounded-full transition-all ${
-                    currentSlide === index
-                      ? "bg-blue-500 scale-110" // Highlight active dot
-                      : "bg-gray-400"
-                  }`}
-                ></div>
-              ))}
-            </div> */}
           </div>
         </div>
       </div>
